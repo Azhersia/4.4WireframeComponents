@@ -1,0 +1,28 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #CCE2C3;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a {
+  color: #305e2d;
+  text-decoration: 0;
+}
+
+a:hover {
+  color: #082205;
+  text-decoration: underline;
+}
+
+#logo {
+  height: 60px;
+  margin-bottom: 5px;
+}

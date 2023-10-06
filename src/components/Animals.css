@@ -1,0 +1,21 @@
+#animalPage {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#filters {
+  background-color: #CCE2C3;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 2px;
+}
+
+input {
+  margin: 10px;
+}

@@ -1,0 +1,49 @@
+#homePage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+  font-size: 2rem;
+}
+
+#rightSideHome {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#featuredAnimal {
+  border-radius: 5px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 2000px) {
+  #featuredAnimal {
+    border-radius: 5px;
+    height: 500px;
+  }
+
+  #homePage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+
+  #rightSideHome {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}

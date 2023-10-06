@@ -1,0 +1,55 @@
+.topNavBar {
+  background-color: #CCE2C3;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+}
+
+.rightSideNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.leftSideNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+a {
+  padding: 15px 20px;
+  background-color: #F4F9F2;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 2px 10px #7a7a7a;
+}
+
+a:hover {
+  background-color: #e0e5de;
+  color: black;
+}
+
+
+#petCarrierImg {
+  height: 45px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#petCarrierDiv {
+  border-radius: 5px;
+  background-color: #F4F9F2;
+  padding: 0 20px;
+  box-shadow: 0 2px 10px #7a7a7a;
+}
+
+#petCarrierDiv:hover {
+  cursor: pointer;
+  background-color: #e0e5de;
+  box-shadow: 0 2px 10px #7a7a7a;
+}
