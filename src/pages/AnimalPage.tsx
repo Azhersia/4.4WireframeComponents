@@ -7,16 +7,16 @@ export default function Animals() {
         <div id='leftSideAnimals'>
           <div id='filters'>
             <div id='dogFilter'>
-              <input type="checkbox" name='animalType1' id='dogCheckbox' value={'Dog'} />
-              <label htmlFor="dogCheckbox">Dogs</label>
+              <input type="radio" name='animalType' id='dogRadio' value={'Dog'} />
+              <label htmlFor="dogRadio">Dogs</label>
             </div>
             <div id='catFilter'>
-              <input type="checkbox" name='animalType2' id='catCheckbox' value={'Cat'} />
-              <label htmlFor="catCheckbox">Cats</label>
+              <input type="radio" name='animalType' id='catRadio' value={'Cat'} />
+              <label htmlFor="catRadio">Cats</label>
             </div>
             <div id='otherFiler'>
-              <input type="checkbox" name='animalType3' id='otherCheckbox' value={'Other'} />
-              <label htmlFor="otherCheckbox">Other</label>
+              <input type="radio" name='animalType' id='otherRadio' value={'Other'} />
+              <label htmlFor="otherRadio">Other</label>
             </div>
           </div>
         </div>

@@ -5,8 +5,8 @@ export default function Header() {
     <>
       <div className="topNavBar">
         <div className='leftSideNav'>
-          <a className="active" href="#home">Home</a>
-          <a href="#animals">Animals</a>
+          <a className="active" href="/">Home</a>
+          <a href="animals">Animals</a>
         </div>
         <div className='rightSideNav'>
           <div id='petCarrierDiv'>
